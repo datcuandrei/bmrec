@@ -11,7 +11,6 @@ Table of Contents
 * [How to install](#how-to-install)
     * [Portable use](#portable-use)
     * [Permission denied](#permission-denied)
-    * [Step by step instructions](#step-by-step-instructions)
 * [Issues](#issues)
 * [Attribution](#attribution)
 
