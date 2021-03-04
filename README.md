@@ -132,3 +132,22 @@ $ chmod +x bmrec.jar
 
 After that you can run the app using the commands provided above.
 
+
+
+# Issues
+
+If you find issues while running the app,please report them in the [issues](https://github.com/datcuandrei/bmrec/issues) section.
+
+
+
+# LICENSE
+
+This project is licensed under the GNU GPLv3 license. View LICENSE.md to learn more.
+
+
+
+# Attribution
+
+- bmrec's UI would have not been possible without [FlatLaf](https://www.formdev.com/flatlaf/) library.
+- bmrec is based on [FFmpeg](https://www.ffmpeg.org/).
+- Special thanks to the [Unsupported Macs](https://discord.gg/XbbWAsE) community.
