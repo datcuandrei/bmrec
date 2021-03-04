@@ -1,0 +1,54 @@
+#!/bin/sh
+
+#    Copyright 2021 Andrei Datcu.
+
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+VERSIONTAG=v1.0
+VER="bmrec $VERSIONTAG"
+
+
+SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+
+echo ""
+echo ""
+echo "This script will install bmrec."
+echo "bmrec only requires ffmpeg to be installed."
+echo "If this script installs anything else other than bmrec,it has been"
+echo "modified externally.In that case,do not run it,first check it's source"
+echo "code!"
+echo ""
+echo "Total installation size :		977 KiB"
+echo ""
+read -r -p ":: Proceed with installation? [Y/n] " input
+
+case $input in
+    [yY][eE][sS]|[yY])
+	echo "Current path : $SCRIPTPATH"
+	echo ""
+	echo ":: Installing..."
+
+	echo "(1/2)Moving jar and executable..."
+	cp -avr $SCRIPTPATH/bmrec.jar /opt/bmrec.jar
+	cp -avr $SCRIPTPATH/bmrec /bin/bmrec
+
+	echo "(2/2)Making bmrec executable..."
+	chmod +x /bin/bmrec
+	echo ""
+	echo ":: Setup finished successfully!"
+	;;
+    *)
+ 	exit 1
+ 	;;
+esac
