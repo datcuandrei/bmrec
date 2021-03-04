@@ -106,6 +106,29 @@ To use bmrec without installing it,after extracting it,open terminal and
 $ cd path/to/extracted/app
 
 $ sudo java -jar bmrec.jar
+```
 
+## Permission denied
 
+This error occures when the user does not have enough privileges to access the program.
+
+In this case,we need to get ownership of the app by typing :
+
+```bash
+$ chmod +x /bin/bmrec
+
+$ chmod +x /opt/bmrec.jar
+```
+
+or if you run bmrec as portable :
+
+```bash
+
+$ cd path/to/extracted/app
+
+$ chmod +x bmrec.jar
+
+```
+
+After that you can run the app using the commands provided above.
 
