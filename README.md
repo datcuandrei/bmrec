@@ -1,4 +1,4 @@
-# bmrec
+# <div align = center><h1>bmrec</h1></div>
 A fast and easy to use screen recording software,based on FFmpeg.
 
 Table of Contents
