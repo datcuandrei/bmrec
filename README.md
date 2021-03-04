@@ -18,11 +18,11 @@ Table of Contents
 bmrec is a front-end for FFmpeg,which is a program designed for command-line-based processing of video and audio files.bmrec's GUI is straightforward and easy to navigate.
 Here is the main menu :
 
-<img src="https://raw.githubusercontent.com/datcuandrei/bmrec/master/captures/main.png" width=30% height=30% />
+<img src="https://raw.githubusercontent.com/datcuandrei/bmrec/master/captures/main.png" width=50% height=50% />
 
 *also has dark mode*
 
-<img src="https://raw.githubusercontent.com/datcuandrei/bmrec/master/captures/maindark.png" width=30% height=30% />
+<img src="https://raw.githubusercontent.com/datcuandrei/bmrec/master/captures/maindark.png" width=50% height=50% />
 
 # LICENSE
 
