@@ -1,6 +1,20 @@
 # bmrec
 A fast and easy to use screen recording software,based on FFmpeg.
 
+Table of Contents
+=================
+
+* [About](#about)
+* [LICENSE](#license)
+* [Requirements](#requirements)
+* [Download](#download)
+* [How to install](#how-to-install)
+    * [Portable use](#portable-use)
+    * [Permission denied](#permission-denied)
+    * [Step by step instructions](#step-by-step-instructions)
+* [Issues](#issues)
+* [Attribution](#attribution)
+
 # About
 bmrec is a front-end for FFmpeg,which is a program designed for command-line-based processing of video and audio files.bmrec's GUI is straightforward and easy to navigate.
 Here is the main menu :
@@ -10,6 +24,10 @@ Here is the main menu :
 *also has dark mode*
 
 <img src="https://raw.githubusercontent.com/datcuandrei/bmrec/master/captures/maindark.png" width=30% height=30% />
+
+# LICENSE
+
+This project is licensed under the GNU GPLv3 license. View LICENSE.md to learn more.
 
 # Requirements
 
@@ -137,13 +155,6 @@ After that you can run the app using the commands provided above.
 # Issues
 
 If you find issues while running the app,please report them in the [issues](https://github.com/datcuandrei/bmrec/issues) section.
-
-
-
-# LICENSE
-
-This project is licensed under the GNU GPLv3 license. View LICENSE.md to learn more.
-
 
 
 # Attribution
